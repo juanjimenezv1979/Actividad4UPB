@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Implementacion Librerias Externas de JS</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="/js/main.js"></script> <!-- Enlazar el archivo de script JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+    <header>
+        <h1>CONTACTOS EXTRATERRESTRES</h1>
+        <p>Ellos estan entre nosotros y tu que los viste nos lo vas a contar</p>
+      </header>
+    
+      <section>
+        <h2>YA ESTAN AQUI</h2>
+        <p>Explora nuestra selección de imagenes tomadas por personas que han tenido un contacto extraterrestre</p>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="https://media.istockphoto.com/id/1327876790/es/foto/cara-de-alien%C3%ADgena-espeluznante-luz-azul-de-fondo-ilustraci%C3%B3n-renderizada-en-3d.jpg?s=612x612&w=0&k=20&c=s07qpYkg8H_4G-zd65N5Gfdttme_6q_Cc29-T1OKqdI="></div>
+              <div class="swiper-slide"><img src="https://media.istockphoto.com/id/1365094219/es/foto/criatura-alien%C3%ADgena-en-el-bosque.webp?b=1&s=612x612&w=0&k=20&c=lGA2V2IuWWrFqNuu5PoCGgSCk6JtFiJq5uExAKGaIns="></div>
+              <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2020/02/07/19/05/spaceship-4828098_640.jpg"></div>
+              <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2017/10/13/14/15/fantasy-2847724_1280.jpg"></div>
+              <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2016/09/13/21/07/ufo-1668223_640.jpg"></div>
+              <div class="swiper-slide"><img src="https://media.istockphoto.com/id/1190295119/es/foto/objeto-volador-no-identificado-ruta-de-recorte-incluida.webp?b=1&s=612x612&w=0&k=20&c=-Lb7202EosaI66Lh4e8Z-2-xh0QdDrc-SwOzPnu-JtQ="></div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+      </section>
+    
+      <section>
+        <h2>Cuentanos tu experiencia extraterrestre</h2>
+        <p>Completa el siguiente formulario y cuentanos lo ocurrido</p>
+        <form>
+          <input type="text" name="nombre" placeholder="Nombre" required>
+          <input type="email" name="email" placeholder="Correo electrónico" required>
+          <input type="tel" name="telefono" placeholder="Teléfono" required>
+          <textarea name="mensaje" placeholder="Mensaje"></textarea>
+          <button type="submit">Envia tu historia</button>
+        </form>
+      </section>
+    
+      <footer>
+        <p>Contacto Extraterrestre</p>
+        <p>© 2023 Todos los derechos reservados.</p>
+      </footer>
+    
+</body>
