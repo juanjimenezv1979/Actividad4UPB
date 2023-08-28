@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'TE HAN CONTACTADO ?',
       html: '<h1>Cuentanolo todo</h1>',
       showConfirmButton: false,
-      background: '#ff4081',
+      background: 'black',
       didOpen: (modalElement) => {
         // Agregar la clase de animación a los elementos h1 y p
         const h1 = modalElement.querySelector('h1');
